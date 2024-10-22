@@ -150,6 +150,7 @@ const game = () => {
   let balance = deposit();
 
   while (true) {
+    //game will loop every time when user want to pay again
     console.log("Your balance now is $" + balance);
     const numberOfLines = getNumberOfLines();
     const bet = getBet(balance, numberOfLines);
